@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Raghad's Portfolio</title>
+    <link rel="stylesheet" href="src/output.css" />
+ <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.min.css" />
+  </head>
+  <body class="bg-violet-50">
+ 
+      <nav
+      class="container max-w-[1200px] mx-auto flex items-center justify-between p-4"
+    >
+      <a
+        href="#"
+        class="font-bold text-lg p-2 border-2 transition-all duration-400 hover:bg-pink-400 hover:-rotate-3"
+        >Raghad Ayman</a
+      >
+
+      <ul
+        class="hidden md:flex items-center gap-5 *:font-semibold *:hover:text-pink-400 *:transition-all *:duration-400"
+      >
+        <li><a href="#">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+      </ul>
+    
+        
+    <i id="menu-icon" class="md:hidden block fa-solid fa-bars cursor-pointer" ></i>
+    </nav>
+     <div class="p-5 bg-white border-2 absolute inset-0 z-100 hidden" id="mobile-menu">
+      <div class="flex items-center justify-center size-9 rounded-full border-2 ml-auto cursor-pointer" id="cancle-menu">
+       <i class="fa-solid fa-x"></i>
+      </div>
+       <ul class="mt-7 *:mb-5 *:hover:text-pink-400 *:transition-all *:duration-400 *:font-semibold">
+        <li><a href="#">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+         <li><a href="#portfolio">Portfolio</a></li>
+          </ul>
+        </div>
+    <header class="pt-3 border-t border-gray-300 ">
+      <div class="container max-w-[1200px] mx-auto p-5 mt-7 md:flex items-center gap-7 justify-between">
+          <div>
+              <h1 class="text-6xl leading-18 font-bold max-w-[200px]">Hi, I'm <span class="text-pink-400">Raghad</span> Alakhras</h1>
+        <p class="text-lg mt-6">
+          Front-End Developer & Software Engineering Student <br />
+          I build responsive, modern, and user-friendly web applications
+        </p>
+        <div class="block *:mt-3 *:w-fit sm:flex items-center gap-6 my-6">
+            <a href="./public/cv.pdf" download="RaghadAlakhras_Resume.pdf" class="bg-yellow-400 p-2 font-semibold border-2 flex items-center gap-2 shadow-[5px_5px_#000] hover:translate-[5px] hover:shadow-[0px_0px] transition-all duration-400">
+                <span>Resume</span>
+                <i class="fa-solid fa-newspaper"></i>
+            </a>
+            <a href="#portfolio"class="bg-blue-400 p-2 font-semibold border-2 flex items-center gap-2  shadow-[5px_5px_#000] hover:translate-[5px] hover:shadow-[0px_0px] transition-all duration-400">
+                <span>View Projects</span>
+                <i class="fa-solid fa-arrow-down"></i>
+            </a>
+        </div>
+          </div>
+          <div>
+            <img src="imgs/raghad.jpeg" alt="Raghad Alakhras" class="w-full h-[300px] object-cover border-2 -rotate-4 hover:-rotate-0 mt-5">
+              <div class="flex items-center justify-center gap-5 mt-10 *:border-1">
+            <a href="mailto:ragadayman5@gmail.com" class="size-10 flex bg-yellow-400 items-center justify-center shadow-[3px_3px_#000] hover:translate-[3px] hover:shadow-[0px_0px] transition-all duration-400">
+                 <i class="fa-solid fa-envelope"></i>
+            </a>
+            <a href="tel:+972-567-670-364" class="size-10 flex bg-pink-400 items-center justify-center shadow-[3px_3px_#000] hover:translate-[3px] hover:shadow-[0px_0px] transition-all duration-400">
+                 <i class="fa-solid fa-phone"></i>
+            </a>
+            <a href="https/www.linkedin.com/in/raghad-alakhras-9b9151374" class="size-10 flex bg-blue-400 items-center justify-center shadow-[3px_3px_#000] hover:translate-[3px] hover:shadow-[0px_0px] transition-all duration-400">
+                 <i class="fa-brands fa-linkedin"></i>
+            </a>
+          </div>
+          </div>
+      </div>
+    </header>
+  
+  <!-- about section -->
+    <section id="about" class="p-4 my-10">
+      <div class="container max-w-[1200px] mx-auto">
+        <h3 class="font-bold text-3xl text-center my-7 ">Education & Certification </h3>
+        <div class="p-6 border-2 w-fit md:flex md:items-center md:gap-15 md:justify-center mx-auto *:flex *:items-center *:gap-4 ">
+          <div>
+            <div class="size-20 bg-yellow-400/50 rounded-md border-2 border-yellow-500 flex items-center justify-center font-semibold">1</div>
+            <div class="flex flex-col gap-2">
+              <p class="font-semibold">B.Sc in Computer System Engineering</p>
+              <p class="text-sm text-gray-700">Al-Azhar University Gaza <br>
+                 GPA: 90%</p>
+                 <p class="text-xs text-gray-700 font-semibold">Expected Graduation: 2026/2027</p>
+            </div>
+
+          </div>
+          <div class="mt-4">
+            <div class="size-20 bg-blue-400/50 rounded-md border-2 border-blue-500 flex items-center justify-center font-semibold">2</div>
+            <div class="flex flex-col gap-2">
+              <p class="font-semibold">Front-End Development Diploma</p>
+              <p class="text-sm text-gray-700">Route Academy</p>
+              <p class="text-xs text-gray-700 font-semibold">120 Training Hours</p>
+            </div>
+
+          </div>
+          <div class="mt-4">
+            <div class="size-20 bg-pink-500 rounded-md border-2 border-pink-500 flex items-center justify-center font-semibold">3</div>
+            <div class="flex flex-col gap-2">
+              <p class="font-semibold">UXUI Course</p>
+              <p class="text-sm text-gray-700">Learn more company</p>
+              <p class="text-xs text-gray-700 font-semibold">60 Training Hours</p>
+            </div>
+
+          </div>
+
+
+        </div>
+
+      </div>
+     </section>
+     <!-- skills -->
+   <section id="skills" class="p-4">
+      <div class="container  max-w-[1200px] mx-auto">
+        <h3 class="font-bold text-3xl text-center">What I Do?</h3>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 my-10 gap-5  *:p-6 *:border-3 *:min-h-[250px]">
+            <div class="bg-yellow-400/60 flex flex-col items-center justify-center gap-4">
+                <h5 class="font-bold text-xl flex items-center justify-center gap-2">
+                    <i class="fa-solid fa-code"></i>
+                    <span>Web Development</span>
+                </h5>
+                <ul class="grid grid-cols-2 *:font-semibold gap-3 mt-5 text-center">
+                    <li>React.js</li>
+                    <li>Next.js</li>
+                    <li>TypeScript</li>
+                    <li>JavaScript (ES6+)</li>
+                </ul>
+            </div>
+             <div class="bg-blue-400/60 flex flex-col items-center justify-center gap-4">
+                <h5 class="font-bold text-xl flex items-center justify-center gap-2">
+                   <i class="fa-solid fa-palette"></i>
+                    <span>UI & Styling</span>
+                </h5>
+                <ul class="grid grid-cols-2 *:font-semibold gap-3 mt-5 text-center">
+                    <li>Tailwind CSS</li>
+                    <li>Bootstrap</li>
+                    <li>Responsive Web Design</li>
+                    <li>Clean UI Implementation</li>
+                </ul>
+            </div>
+             <div class="bg-pink-400/60 flex flex-col items-center justify-center gap-4">
+                <h5 class="font-bold text-xl flex items-center justify-center gap-2">
+                   <i class="fa-solid fa-gear"></i>
+                    <span>State Management</span>
+                </h5>
+                <ul class="grid grid-cols-2 *:font-semibold gap-3 mt-5 text-center">
+                    <li>React Hooks</li>
+                    <li>Context API</li>
+                    <li>Redux Toolkit (Basic)</li>
+                </ul>
+            </div>
+             <div class="bg-blue-400/60 flex flex-col items-center justify-center gap-4">
+                <h5 class="font-bold text-xl flex items-center justify-center gap-2">
+                   <i class="fa-solid fa-network-wired"></i>
+                    <span>API & Core Concepts</span>
+                </h5>
+                <ul class="grid grid-cols-2 *:font-semibold gap-3 mt-5 text-center">
+                    <li>REST API Integration</li>
+                    <li>Form Validation</li>
+                    <li>Authentication (NextAuth.js)</li>
+                </ul>
+            </div>
+             <div class="bg-yellow-400/60 flex flex-col items-center justify-center gap-4">
+                <h5 class="font-bold text-xl flex items-center justify-center gap-2">
+                   <i class="fa-solid fa-toolbox"></i>
+                    <span>Tools & Workflow</span>
+                </h5>
+                <ul class="grid grid-cols-2 *:font-semibold gap-3 mt-5 text-center">
+                    <li>Git & GitHub</li>
+                    <li>Windsurf</li>
+                </ul>
+            </div>
+        </div>
+      </div>
+   </section>
+
+   <!-- projects section -->
+    <section id="portfolio" class="p-4">
+        <div class="container max-w-[1200px] mx-auto">
+             <h3 class="font-bold text-3xl text-center my-7">Featured Projects</h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+            <div class="p-6 border-2 rounded-sm">
+           <img src="imgs/e-commerceCover.png" alt="E-commerce Project" class="block md:w-3/4 mx-auto h-[200px] object-cover">
+         <div>
+            <h6 class="my-2 mt-4 font-bold text-lg">E-Commerce Website</h6>
+           <p class="text-gray-900 mb-3">Modern online shopping platform with clean UI and seamless user experience.</p>
+           <p><span class="font-semibold">Tech Stack:</span> Next.js, Tailwind CSS</p>
+          <div class="flex items-center gap-3 my-5">
+             <a  href="https://fresh-cart-rywm.vercel.app/" target="_blank" class="p-2 bg-yellow-400 border-2 border-yellow-500  transition-all duration-400 font-semibold rounded-full rounded-tl-none ">View Project</a>
+           
+             <a  href="https://github.com/raghad-alakhras/FreshCart.git" target="_blank" class="p-2 bg-blue-400 border-2 border-blue-500  transition-all duration-400 font-semibold rounded-full rounded-tl-none ">Repository</a>
+           
+          </div>
+         </div>
+        
+          </div>
+            <div class="p-6 border-2 rounded-sm">
+           <img src="imgs/socialappCover.png" alt="Social app Project" class="block md:w-3/4 mx-auto h-[200px] object-cover">
+         <div>
+            <h6 class="my-2 mt-4 font-bold text-lg">Social App Website</h6>
+           <p class="text-gray-900 mb-3">Interactive social platform focused on user experience and authentication flows.</p>
+           <p><span class="font-semibold">Tech Stack:</span> React.js, Tailwind CSS</p>
+          <div class="flex items-center gap-3 my-5">
+             <a  href="https://route-posts-ten.vercel.app/" target="_blank" class="p-2 bg-pink-400 border-2 border-pink-500  transition-all duration-400 font-semibold rounded-full rounded-tl-none ">View Project</a>
+           
+             <a  href="https://github.com/raghad-alakhras/route-posts.git" target="_blank" class="p-2 bg-yellow-400 border-2 border-yellow-500  transition-all duration-400 font-semibold rounded-full rounded-tl-none ">Repository</a>
+           
+          </div>
+         </div>
+        
+          </div>
+        </div>
+
+        </div>
+       
+
+    </section>
+
+
+    <footer class="bg-black text-center text-xs text-white py-1">
+      <p>Made With <i class="fs-solid fa-heart text-yellow-400"></i></p>
+    </footer>
+ 
+
+     <script src="js/main.js"></script>
+  </body>
+</html>
