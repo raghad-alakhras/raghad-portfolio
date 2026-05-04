@@ -1,4 +1,4 @@
-import '@fortawesome/fontawesome-free/css/all.min.css'لهف 
+import '@fortawesome/fontawesome-free/css/all.min.css'
 const menuIcon = document.getElementById('menu-icon')
 const mobileMenu = document.getElementById('mobile-menu')
 const cancleMenu = document.getElementById('cancle-menu')
